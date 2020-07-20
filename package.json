@@ -4,7 +4,23 @@
   "main": "./lib/index.js",
   "files": ["lib/*"],
   "license": "MIT",
-
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zemeolotu/node-pg2arrow.git"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "pg-native",
+    "libpq",
+    "arrow",
+    "apache"
+  ],
+  "author": "Zeme Olotu",
+  "bugs": {
+    "url": "https://github.com/zemeolotu/node-pg2arrow/issues"
+  },
+  "homepage": "https://github.com/zemeolotu/node-pg2arrow",
   "dependencies": {
     "apache-arrow": "^0.17.0",
     "pg-native": "^3.0.0",
