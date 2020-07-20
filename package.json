@@ -1,0 +1,19 @@
+{
+  "name": "pg2arrow",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "files": ["lib/*"],
+  "license": "MIT",
+
+  "dependencies": {
+    "apache-arrow": "^0.17.0",
+    "pg-native": "^3.0.0",
+    "pg-types": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
